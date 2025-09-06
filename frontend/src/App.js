@@ -6,18 +6,13 @@ function App() {
   const [shortUrl, setShortUrl] = useState("");
   async function handleSubmit(e) {
     e.preventDefault();
-    const res = await fetch(
-      "https://harikeerth-url-shortener.onrender.com/api/shorten",
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url }),
-      }
-    );
+    const res = await fetch("https://url-proxy.onrender.com/api/shorten", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url }),
+    });
     const data = await res.json();
-    setShortUrl(
-      `https://harikeerth-url-shortener.onrender.com/${data.shortCode}`
-    );
+    setShortUrl(`https://url-proxy.onrender.com/${data.shortCode}`);
   }
   return (
     <div className="root">
