@@ -7,7 +7,7 @@ function App() {
   async function handleSubmit(e) {
     e.preventDefault();
     const res = await fetch(
-      "https://harikeerth-url-proxy.onrender.com/api/shorten",
+      "https://harikeerth-url-proxy.vercel.app/api/shorten",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -15,7 +15,7 @@ function App() {
       }
     );
     const data = await res.json();
-    setShortUrl(`https://harikeerth-url-proxy.onrender.com/${data.shortCode}`);
+    setShortUrl(`https://harikeerth-url-proxy.vercel.app/${data.shortCode}`);
   }
   return (
     <div className="root">
