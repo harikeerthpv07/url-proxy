@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="root">
       <form onSubmit={handleSubmit}>
-        <h1>URL shortner</h1>
+        <h1>URL Proxy :) </h1>
         <input
           type="text"
           value={url}
