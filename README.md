@@ -6,7 +6,7 @@ REACT, MONGO DB, EXPRESS JS, NODE JS
 WHY DID I COME UP WITH THIS:
 
 Idea of this project came to my mind, when my college HOD has sent some google drive link(not sure if it was google drive link specifically, but that link was sooo long, lines and lines) into the class group.
-while I was copying that long link, last line was missed out, it took couple of tries to copy that long link, though its not that big issue to deal with it was little annoying, but then as an responsible 
+while I was copying that long link, last line was missed out, it took couple of tries to copy that long link, though its not that big issue to deal with it was little annoying, but then I felt like as a responsible 
 andd aspiring future software developer/full stack developer I thought how to solve that problem and I came up with this, this was entirely coded by me, few theoretical part I got help from chatgpt, and yeah yeah also
 in debugging and typos, I got help from chatgpt, other than that the entire code is written by me. If the code is not that good or if you can give suggestion or anything please 
 gmail me harikeerthpv2@gmail.com
