@@ -21,6 +21,10 @@ function App() {
     <div className="root">
       <form onSubmit={handleSubmit}>
         <h1>URL Proxy :) </h1>
+        <p>
+          (might take 5 to 10 sec for first generation, since it is deployed in
+          free tier vercel)
+        </p>
         <input
           type="text"
           value={url}
